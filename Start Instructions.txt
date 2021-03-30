@@ -1,0 +1,8 @@
+To run the Express webserver, cd into the webserver folder and run npm start. This will start the webserver at localhost:8888. Be sure the dependencies have been installed first via npm install. If you navigate to this root page (http://localhost:8888/) in your browser, you'll likely get a error in your console suggesting that "No default engine was specified". This is because no endpoint is defined for the root page (see the index.js file to see the defined endpoints). If you open endpoints which are defined, like http://localhost:8888/login, you shouldn't get this error.
+
+If you make a change to code in the webserver (which you should not need to do to complete the required portions of this assignment), you will have to end the running program and re-run it. End it by typing Ctrl-C into the command line and then re-running it with npm start.
+
+Running the client
+To run the Angular client, cd into the client folder and run ng serve. This will start the client at localhost:4200. Adding the --open flag will open it up in the browser. Be sure the dependencies have been installed first via npm install.
+
+Any code changes will be automatically reloaded on the client.
